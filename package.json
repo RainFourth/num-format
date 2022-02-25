@@ -1,0 +1,31 @@
+{
+  "name": "@rrainpath/num-format",
+  "version": "0.1.0",
+  "description": "Number Format library",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RainFourth/num-format.git"
+  },
+  "keywords": [
+    "number",
+    "format"
+  ],
+  "author": "'rRain' <rrainpath@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RainFourth/num-format/issues"
+  },
+  "homepage": "https://github.com/RainFourth/num-format#readme",
+  "dependencies": {
+    "@rrainpath/ts-utils": "^0.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  }
+}
