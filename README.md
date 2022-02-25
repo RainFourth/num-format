@@ -1,12 +1,17 @@
 # num-format
 Number format library
 
-## Usage
+## Install
+`yarn add @rrainpath/num-format`
+or
+`npm i @rrainpath/num-format`
 
-1) Create instance: `const format = new NumFormat()`
-2) Set your format (or not to be default) (you can set only necessary parts of format): `format.setFormat({round: { scale: 2, mode: "half-up" }})`
-3) Set number: `format.setValue(1234.6678)`
-4) Format it! `const formattedNumber = format.format()`
+## Usage
+1) Importing: `import { NumFormat } from '@rrainpath/num-format'`
+2) Create instance: `const format = new NumFormat()`
+3) Set your format (or not to be default) (you can set only necessary parts of format): `format.setFormat({round: { scale: 2, mode: "half-up" }})`
+4) Set number: `format.setValue(1234.6678)`
+5) Format it! `const formattedNumber = format.format()`
 
 ## Full Usage
 
